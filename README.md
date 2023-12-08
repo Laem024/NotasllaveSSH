@@ -11,7 +11,7 @@ ssh-keygen -t rsa -b 4096 -C "youremail@example.com"
 
 -Comprobar proceso y agregarlo (Windows)
 
-eval $(ssh-agent - s)
+eval $(ssh-agent -s)
 ssh-add ~/.ssh/id_rsa
 
 --------------------------------------------------------------------------------
